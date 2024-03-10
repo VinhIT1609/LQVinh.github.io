@@ -116,4 +116,36 @@ body {
   width: 70%;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  
+}
+
+
+.card {
+  display: flex;
+  flex-direction: row; /* Thiết lập hiển thị theo chiều ngang */
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 5%;
+
+  background-color: #0097a7;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.card img {
+  width: 150px; /* Điều chỉnh kích thước ảnh */
+  height: auto;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-top: 0;
 }
